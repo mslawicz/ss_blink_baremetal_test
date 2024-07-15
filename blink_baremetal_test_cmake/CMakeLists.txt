@@ -12,12 +12,17 @@ project(
 # which contains the content of the SLC project
 include(blink_baremetal_test.cmake)
 
+# project source files
+file(GLOB PROJECT_SOURCE_FILES CONFIGURE_DEPENDS ../src/*.c)
+
 add_executable(blink_baremetal_test
     # Add additional sources here
+    ${PROJECT_SOURCE_FILES}
 )
 
 target_include_directories(blink_baremetal_test PUBLIC
     # Add additional include paths here
+    src
 )
 
 target_compile_definitions(blink_baremetal_test PUBLIC
