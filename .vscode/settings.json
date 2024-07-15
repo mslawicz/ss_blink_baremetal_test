@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "sl_system_init.h": "c",
+        "sl_simple_led_instances.h": "c",
+        "sl_simple_led.h": "c",
+        "sl_led.h": "c"
+    }
+}

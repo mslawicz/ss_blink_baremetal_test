@@ -3,7 +3,8 @@
         {
             "name": "blink_baremetal_test",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../SDKs/simplicity_sdk/**"
             ],
             "defines": [],
             "compilerPath": ""
