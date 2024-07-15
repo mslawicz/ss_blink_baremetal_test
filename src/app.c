@@ -16,12 +16,18 @@
  ******************************************************************************/
 #include "blink.h"
 
+#include "em_gpio.h"
+#include "sl_simple_led_instances.h"
+#include "pin_config.h"
+
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
 void app_init(void)
 {
   blink_init();
+
+  GPIO_PinModeSet(test_out_1_PORT, test_out_1_PIN, gpioModePushPull, 0);
 }
 
 /***************************************************************************//**
@@ -30,4 +36,11 @@ void app_init(void)
 void app_process_action(void)
 {
   blink_process_action();
+
+  if(sl_led_get_state(&sl_led_led0) == SL_LED_CURRENT_STATE_ON)
+    {
+      /* a short pulse on every LED on event */
+      GPIO_PinOutSet(test_out_1_PORT, test_out_1_PIN);
+      GPIO_PinOutClear(test_out_1_PORT, test_out_1_PIN);
+    }
 }

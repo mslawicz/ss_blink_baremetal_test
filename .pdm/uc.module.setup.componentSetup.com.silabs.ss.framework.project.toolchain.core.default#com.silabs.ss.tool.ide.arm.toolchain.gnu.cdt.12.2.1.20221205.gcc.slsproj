@@ -254,12 +254,9 @@
       </folder>
     </folder>
   </folder>
-  <file name="app.c" linked="false" uri="studio:/sdk/app/common/example/blink_baremetal/app.c"/>
-  <file name="main.c" linked="false" uri="studio:/sdk/app/common/example/blink_baremetal/main.c"/>
-  <file name="blink.c" linked="false" uri="studio:/sdk/app/common/example/blink_baremetal/blink.c"/>
-  <file name="app.h" linked="false" uri="studio:/sdk/app/common/example/blink_baremetal/app.h"/>
-  <file name="blink.h" linked="false" uri="studio:/sdk/app/common/example/blink_baremetal/blink.h"/>
-  <file name="readme.md" linked="false" uri="studio:/sdk/app/common/example/blink_baremetal/readme.md"/>
+  <file name="app.h" linked="false" uri="studio:/project/app.h"/>
+  <file name="blink.h" linked="false" uri="studio:/project/blink.h"/>
+  <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/sdk/platform/Device/SiliconLabs/MGM24/Include"/>
   <includePath uri="studio:/sdk/platform/common/inc"/>
