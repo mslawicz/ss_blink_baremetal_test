@@ -1,2 +1,5 @@
 GNU ARM v12.2.1 - Default
 build
+/imported_project_report.html
+/.projectlinkstore
+/blink_baremetal_test_cmake/blink_baremetal_test.cmake

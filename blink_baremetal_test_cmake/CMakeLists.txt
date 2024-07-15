@@ -22,7 +22,7 @@ add_executable(blink_baremetal_test
 
 target_include_directories(blink_baremetal_test PUBLIC
     # Add additional include paths here
-    src
+    ../src
 )
 
 target_compile_definitions(blink_baremetal_test PUBLIC
