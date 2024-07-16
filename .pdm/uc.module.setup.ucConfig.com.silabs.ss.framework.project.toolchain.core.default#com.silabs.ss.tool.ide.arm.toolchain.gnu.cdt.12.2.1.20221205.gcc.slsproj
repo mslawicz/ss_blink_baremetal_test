@@ -4,6 +4,7 @@
     <file name="sl_memory_config.h" generated="true" linked="false"/>
     <file name="sl_memory_manager_region_config.h" generated="true" linked="false"/>
     <file name="sl_device_init_dcdc_config.h" generated="true" linked="false"/>
+    <file name="sl_pwm_init_CLK_100_Hz_config.h" generated="true" linked="false"/>
     <file name="sl_simple_led_led0_config.h" generated="true" linked="false"/>
     <file name="sl_clock_manager_oscillator_config.h" generated="true" linked="false"/>
     <file name="sl_clock_manager_tree_config.h" generated="true" linked="false"/>

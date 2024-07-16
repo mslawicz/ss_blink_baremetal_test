@@ -71,6 +71,14 @@
 // [GPIO]$
 
 // $[TIMER0]
+// TIMER0 CC0 on PD02
+#ifndef TIMER0_CC0_PORT                         
+#define TIMER0_CC0_PORT                          gpioPortD
+#endif
+#ifndef TIMER0_CC0_PIN                          
+#define TIMER0_CC0_PIN                           2
+#endif
+
 // [TIMER0]$
 
 // $[TIMER1]

@@ -337,6 +337,16 @@
 			<locationURI>STUDIO_SDK_LOC/platform/driver/leddrv/src/sl_simple_led.c</locationURI>
 		</link>
 		<link>
+			<name>simplicity_sdk_2024.6.0/platform/driver/pwm/inc/sl_pwm.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/pwm/inc/sl_pwm.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2024.6.0/platform/driver/pwm/src/sl_pwm.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/pwm/src/sl_pwm.c</locationURI>
+		</link>
+		<link>
 			<name>simplicity_sdk_2024.6.0/platform/service/clock_manager/inc/sl_clock_manager.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/clock_manager/inc/sl_clock_manager.h</locationURI>

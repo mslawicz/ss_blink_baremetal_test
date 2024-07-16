@@ -9,5 +9,7 @@ sl_device_init_emu_config.h=622680131
 sl_interrupt_manager_s2_config.h=1560337863
 sl_memory_config.h=-1757257759
 sl_memory_manager_region_config.h=1585140969
+sl_pwm_init_CLK_100_Hz_config.h=-772661507
+sl_pwm_init_PWM_out_1_config.h=-360559606
 sl_simple_led_led0_config.h=-917927416
 sl_sleeptimer_config.h=1360009810

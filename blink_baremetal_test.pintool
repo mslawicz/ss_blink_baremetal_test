@@ -8,6 +8,14 @@
     <property object="PD00" propertyId="pin.reserve" value="Reserved"/>
     <property object="PD01" propertyId="pin.name" value="test_out_2"/>
     <property object="PD01" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PORTIO" propertyId="portio.timer0.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.location.cc0" value="50"/>
+    <property object="TIMER0" propertyId="ABModule.selectedRequirement" value="timer%T%SL_PWM_CLK_100_HZ%T%sl_pwm_init_CLK_100_Hz_config.h"/>
+    <property object="TIMER0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER0" propertyId="channel.0.name" value="OUTPUT"/>
+    <property object="TIMER0" propertyId="peripheral.name" value="clk_100_Hz"/>
+    <property object="TIMER2" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER4" propertyId="ABPeripheral.included" value="true"/>
   </mode>
   <modeTransition>
     <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
