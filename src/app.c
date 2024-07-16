@@ -19,6 +19,7 @@
 #include "em_gpio.h"
 #include "sl_simple_led_instances.h"
 #include "pin_config.h"
+#include "sl_pwm_instances.h"
 
 /***************************************************************************//**
  * Initialize application.
@@ -29,6 +30,9 @@ void app_init(void)
 
   GPIO_PinModeSet(test_out_1_PORT, test_out_1_PIN, gpioModePushPull, 0);
   GPIO_PinModeSet(test_out_2_PORT, test_out_2_PIN, gpioModePushPull, 0);
+
+  sl_pwm_set_duty_cycle(&sl_pwm_CLK_100_Hz, 33);
+  sl_pwm_start(&sl_pwm_CLK_100_Hz);
 }
 
 /***************************************************************************//**

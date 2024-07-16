@@ -5,7 +5,9 @@
         "sl_simple_led.h": "c",
         "sl_led.h": "c",
         "sl_status.h": "c",
-        "stdint.h": "c"
+        "stdint.h": "c",
+        "sl_pwm.h": "c",
+        "sl_pwm_instances.h": "c"
     },
     "cmake.sourceDirectory": "C:/Users/ep14231/SimplicityStudio/v5_workspace/blink_baremetal_test/blink_baremetal_test_cmake"
 }
