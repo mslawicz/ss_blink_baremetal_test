@@ -28,6 +28,7 @@ void app_init(void)
   blink_init();
 
   GPIO_PinModeSet(test_out_1_PORT, test_out_1_PIN, gpioModePushPull, 0);
+  GPIO_PinModeSet(test_out_2_PORT, test_out_2_PIN, gpioModePushPull, 0);
 }
 
 /***************************************************************************//**
@@ -42,5 +43,6 @@ void app_process_action(void)
       /* a short pulse on every LED on event */
       GPIO_PinOutSet(test_out_1_PORT, test_out_1_PIN);
       GPIO_PinOutClear(test_out_1_PORT, test_out_1_PIN);
+      GPIO_PinOutToggle(test_out_2_PORT, test_out_2_PIN);
     }
 }
